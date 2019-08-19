@@ -9,7 +9,7 @@
   	background-size: auto;
   	text-align:center;
 	}
-	#name,#desc {
+	#header #name, #header #desc {
 	color: white;}
 	
 	#desc{
@@ -51,16 +51,33 @@
 	}
 	
 	#pic{
-	width:250px; /* you can use % */
+	width:200px; /* you can use % */
  	height: auto;
-    margin:50px 50px;}
-    
-    #profilePic{
-    float:left;}
+    margin:50px 50px;
+    float:left;
+    display:inline;
+    vertical-align: middle;}
+
+
     
     #porofileDesc{
-    width:300px;
+    width:500px;
+    float:left;
+    margin:50px 50px;
     text-align: justify;}
+    
+    #middsec{
+    overflow:auto;
+    width:900px;
+    margin:0 auto;}
+    
+    #footer{
+    clear:both;}
+    
+	.center-vertically {
+  	display: inline-block;
+  	vertical-align: middle;
+  	width: 100%;}
 </style>
 </head>
 
@@ -84,16 +101,27 @@
 	</div>
 </div>
 <div id="middsec">
-	<div id="profilePic">
-		<input id="pic" type="image" src="protrait.jpg" alt="Submit">
+	<div id="profilePic-container" >
+		<img id="pic" src="protrait.jpeg"/>
 	</div>
+	<div >
 	<div id="porofileDesc">
-		I'm a paragraph. Click here to add your own text and edit me. It’s easy. 
-		Just click “Edit Text” or double click me to add your own content and make 
-		changes to the font. Feel free to drag and drop me anywhere you like on your 
-		page. I’m a great place for you to tell a story and let your users know a little more about you.
+		Rim El Ballouli, is a fresh doctorate graduate from the Universit&eacute;  of Grenoble Alpes, France. Her Ph.D. 
+		tackled the modeling of self-configuration in systems with dynamic architectures. Her thesis was under the 
+		supervision of prof. <a href="https://www-verimag.imag.fr/~bensalem/">Saddek Bensalem</a> and in collaboration 
+		with Dr.<a href="http://www-verimag.imag.fr/~bozga/"> Marius Bozga</a> and turing award winner 
+		Prof. <a href="http://www-verimag.imag.fr/PEOPLE/Joseph.Sifakis/">Joseph Sifakis </a>.
+		</br><br/>
+		Prioir to that, she received her B.Sc. and M.Sc. in Computer Science from the American University of Beirut. In her 
+		Master's thesis she proposed a framework relying on machine learning techniques for credibility classification of arabic tweets. 
+		Her work was in collaboration with <a href="http://oma-project.azurewebsites.net/">OMA</a> research group and under the 
+		supervision of prof. <a href="https://staff.aub.edu.lb/~we07/index.htm"> Wassim El-Hajj</a>. 
+		</br></br>
+		Her experience spans several axis including research, higher education and industry experience. Her research interests are 
+		in AI, IOT, and self-adaptive and autonomous systems. 
+	</div>
 	</div>
 </div>
-<div>Footer</div>
+<div id="footer"></div>
 </body>
 </html>
