@@ -1,0 +1,79 @@
+body{
+	margin:0px !important;}
+	
+	
+	#header {
+    background-image: url('/assets/images/banner3.jpg');
+    background-repeat: no-repeat;
+  	background-size: auto;
+  	text-align:center;
+	}
+	#header #name, #header #desc {
+	color: white;}
+	
+	#desc{
+	margin-bottom: 60pt;}
+	
+	#name {
+	font-size: 30pt;
+	padding-top: 50pt;}
+	
+	/***************** NAVIGATION BAR **************/
+	#navigation ul {
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	width: 1100px;
+ 	margin: 0 auto;
+  	background-color: #713E25;}
+  	
+  	#navigation li {
+  	 float: left;}
+  	
+  	#navigation{
+  	background-color:#713E25}
+  	
+  	
+  	#navigation li a {
+  	display: block;
+ 	padding: 15px 60px;
+ 	text-align: center;
+ 	color:white;
+ 	text-decoration: none;}
+ 	
+ 	#navigation li a:hover {
+  	background-color: #462416;}
+  	
+  	#navigation .active {
+  	background-color: #462416;
+	}
+	
+	/***************** END NAVIGATION BAR **************/
+	#middsec{
+    overflow:auto;
+    width:900px;
+    margin:0 auto;}
+    
+	#porofileDesc{
+    width:500px;
+    float:left;
+    margin:50px 50px;
+    text-align: justify;}
+    
+	#pic{
+	width:200px; /* you can use % */
+ 	height: auto;
+    margin:50px 50px;
+    float:left;
+    display:inline;
+    vertical-align: middle;}
+    
+  
+    #footer{
+    clear:both;}
+    
+	.center-vertically {
+  	display: inline-block;
+  	vertical-align: middle;
+  	width: 100%;}

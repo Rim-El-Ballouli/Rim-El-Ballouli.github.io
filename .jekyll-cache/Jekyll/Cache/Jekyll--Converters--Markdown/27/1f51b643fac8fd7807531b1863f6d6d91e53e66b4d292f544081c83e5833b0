@@ -1,14 +1,9 @@
----
-title: My page
-layout: default
----
-
-<!-- # {{ page.title }}
+I"¸<!-- # My page
 
 Content is written in [Markdown](https://learnxinyminutes.com/docs/markdown/). -->
 <div id="middsec">
-	<div id="profilePic-container" >
-		<img id="pic" src="/assets/images//protrait.jpg">
+	<div id="profilePic-container">
+		<img id="pic" src="/assets/images//protrait.jpg" />
 	</div>
 	<div>
 	<div id="porofileDesc">
@@ -28,3 +23,4 @@ Content is written in [Markdown](https://learnxinyminutes.com/docs/markdown/). -
 	</div>
 	</div>
 </div>
+:ET
