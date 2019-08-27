@@ -2,24 +2,34 @@
 <html>
 <head>
 <link rel="stylesheet" href="/assets/css/index.css">
+
+<script type="text/javascript">
+  document.documentElement.className = 'js';
+</script>
+
+<script src='https://d33wubrfki0l68.cloudfront.net/js/34649f4bc672d45319e6bddeb4c00298f5e57613/assets/js/jquery-1.9.1.min.js'></script>
+<script>
+
+$(document).ready(function() {
+	
+	window.scrollTo(0, 1);
+	
+	$('.js #menu-toggle').click(function (e) {
+		$('body').toggleClass('active');
+		e.preventDefault();
+    });
+
+});
+</script>
 </head>
 
-<body>
-<div id=header>
- 	<div id="name"> Rim El Ballouli, PhD<br></div>
-   	<div id="desc">Doctor of Philisophy in Computer Science</div>
-	<div id="navigation">
-		<ul>
-		<li><a href="about.html">About</a></li>
-		<li><a href="experience.html">Experience</a></li>
-  		<li><a href="reserahc.html">Research</a></li>
- 		<li><a href="projects.html">Projects</a></li>
-  		<li><a href="news.html">News</a></li>
-  		<li><a href="blog.html">Blog</a></li>
-  		</ul>
-	</div>
-</div>
+<body class="nav-collapsed">
+{% include header.html %}
+{% include navigation.html %}
+
+<section class="main_content" role="main">
 {{ content }}
-<div id="footer"></div>
-</body>
+</section>
+</div>
+{% include footer.html %}
 </html>
