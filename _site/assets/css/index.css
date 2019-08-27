@@ -54,7 +54,6 @@ body{
 	/***************** END NAVIGATION BAR **************/
 	#middsec{
     overflow:auto;
-    width:900px;
     margin:0 auto;}
     
 	#porofileDesc{
@@ -69,6 +68,9 @@ body{
     margin:50px 50px;
     float:left;
     display:inline;
+    border-radius: 50%;
+    border-color: black;
+    border-width:thick;
     vertical-align: middle;}
     
   
