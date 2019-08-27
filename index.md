@@ -1,28 +1,16 @@
-<html>
-<head>
-<link rel="stylesheet" href="index.css">
-</head>
+---
+title: My page
+layout: default
+---
 
-<body>
-<div id=header>
- 	<div id="name"> Rim El Ballouli, PhD<br></div>
-   	<div id="desc">Doctor of Philisophy in Computer Science</div>
-	<div id="navigation">
-		<ul>
-		<li><a href="about.html">About</a></li>
-		<li><a href="experience.html">Experience</a></li>
-  		<li><a href="reserahc.html">Research</a></li>
- 		<li><a href="projects.html">Projects</a></li>
-  		<li><a href="news.html">News</a></li>
-  		<li><a href="blog.html">Blog</a></li>
-  		</ul>
-	</div>
-</div>
+# {{ page.title }}
+
+Content is written in [Markdown](https://learnxinyminutes.com/docs/markdown/). 
 <div id="middsec">
 	<div id="profilePic-container" >
-		<img id="pic" src="./img/protrait.jpg">
+		<img id="pic" src="/assets/images//protrait.jpg">
 	</div>
-	<div >
+	<div>
 	<div id="porofileDesc">
 		Rim El Ballouli, is a fresh doctorate graduate from the Universit&eacute;  of Grenoble Alpes, France. Her Ph.D. 
 		tackled the modeling of self-configuration in systems with dynamic architectures. Her thesis was under the 
@@ -40,6 +28,3 @@
 	</div>
 	</div>
 </div>
-<div id="footer"></div>
-</body>
-</html>
