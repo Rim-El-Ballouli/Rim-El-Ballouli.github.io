@@ -1,53 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="/assets/css/index.css">
-
-<script type="text/javascript">
-  document.documentElement.className = 'js';
-</script>
-
-<script src='https://d33wubrfki0l68.cloudfront.net/js/34649f4bc672d45319e6bddeb4c00298f5e57613/assets/js/jquery-1.9.1.min.js'></script>
-
-<script>
-$(document).ready(function() {
-	
-	window.scrollTo(0, 1);
-	
-	$('.js #menu-toggle').click(function (e) {
-		$('body').toggleClass('active');
-		e.preventDefault();
-    });
-
-});
-</script>
-</head>
-
-<body>
-<header>
- 	<div id="name"> Rim El Ballouli, PhD<br></div>
-   	<div id="desc">Doctor of Philisophy in Computer Science</div>
-</header>
-<!-- navigation tutorial https://responsivenavigation.net/examples/off-canvas-slide/# -->
-
-	<div class="menu_container cf">
-		<a id="menu-toggle" class="anchor-link" href="#mobile-nav">MENU</a>
-	</div>
-	
-	<nav id="mobile-nav" class="nav cf" role="navigation">
-		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Experience</a></li>
-			<li><a href="#">Research</a></li>
-			<li><a href="#">Blog</a></li>
-		</ul>
-	</nav>
-	
-
-
-<section class="main_content" role="main">
-<!--[Saddek Bensalem](https://www-verimag.imag.fr/~bensalem/)
+I"m<!--[Saddek Bensalem](https://www-verimag.imag.fr/~bensalem/)
 [Marius Bozga](http://www-verimag.imag.fr/~bozga/)
 [Joseph Sifakis](https://www-verimag.imag.fr/~bensalem/)
 [OMA](http://oma-project.azurewebsites.net/)
@@ -59,7 +10,7 @@ $(document).ready(function() {
 		<a href="https://github.com/Rim-El-Ballouli/Rim-El-Ballouli.github.io"><img class="social-media-icon" src="/assets/images/gh.png" /></a>
 		<a href="https://scholar.google.com/citations?hl=en&amp;user=ifD1gh0AAAAJ"><img class="social-media-icon" src="/assets/images/gs.png" /></a>
 		<a href="https://www.linkedin.com/in/rim-el-ballouli/"><img class="social-media-icon" src="/assets/images/li.png" /></a>
-		<a href="https://www.researchgate.net/profile/Rim_El_Ballouli2"><img class="social-media-icon" src="/assets/images/rg.png" /></a>
+		<a href="https://github.com/Rim-El-Ballouli/Rim-El-Ballouli.github.io"><img class="social-media-icon" src="/assets/images/rg.png" /></a>
 	</div>
 </div>
 <div id="col-2">
@@ -77,14 +28,4 @@ $(document).ready(function() {
 	Her experience spans several axes including research, higher education and industry. Her research interests are 
 		in AI, IOT, self-adaptive and autonomous systems.
 </div>
-
-</section>
-
-<div id="footer"></div>
-
-</body>
-</html>
-
-
-<!-- jekyll server --trace
-sudo lsof -wni tcp:4000 -->
+:ET

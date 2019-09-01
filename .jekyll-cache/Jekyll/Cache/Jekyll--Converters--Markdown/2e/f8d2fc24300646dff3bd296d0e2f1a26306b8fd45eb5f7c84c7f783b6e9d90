@@ -1,22 +1,16 @@
----
-layout: default
----
-
-<!--[Saddek Bensalem](https://www-verimag.imag.fr/~bensalem/)
+I"M<!--[Saddek Bensalem](https://www-verimag.imag.fr/~bensalem/)
 [Marius Bozga](http://www-verimag.imag.fr/~bozga/)
 [Joseph Sifakis](https://www-verimag.imag.fr/~bensalem/)
 [OMA](http://oma-project.azurewebsites.net/)
 [Wassim El-Hajj](https://staff.aub.edu.lb/~we07/index.htm)-->
 
-
-
-<div id="col-1" >
-	<img id="profile" src="/assets/images/protrait.jpg">
-	<div  class="social-media-icon-container">
-		<a href="https://github.com/Rim-El-Ballouli/Rim-El-Ballouli.github.io"><img  class="social-media-icon" src="/assets/images/gh.png"></a>
-		<a href="https://scholar.google.com/citations?hl=en&user=ifD1gh0AAAAJ"><img  class="social-media-icon" src="/assets/images/gs.png"></a>
-		<a href="https://www.linkedin.com/in/rim-el-ballouli/"><img  class="social-media-icon" src="/assets/images/li.png"></a>
-		<a href="https://www.researchgate.net/profile/Rim_El_Ballouli2"><img  class="social-media-icon" src="/assets/images/rg.png"></a>
+<div id="col-1">
+	<img id="profile" src="/assets/images/protrait.jpg" />
+	<div class="social-media-icon-container">
+		<img class="social-media-icon" src="/assets/images/gh.png" />
+		<img class="social-media-icon" src="/assets/images/gs.png" />
+		<img class="social-media-icon" src="/assets/images/li.png" />
+		<img class="social-media-icon" src="/assets/images/rg.png" />
 	</div>
 </div>
 <div id="col-2">
@@ -34,3 +28,4 @@ layout: default
 	Her experience spans several axes including research, higher education and industry. Her research interests are 
 		in AI, IOT, self-adaptive and autonomous systems.
 </div>
+:ET

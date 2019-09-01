@@ -8,8 +8,9 @@ body.active .main_content:before { content: ""; position: absolute; z-index: -1;
   body.active .main_content { margin-right: -100%; }
 }
 
-/*********** HEADER ***********/	
-	
+/************************************/
+/*************** HEADER ***********/	
+/************************************/
 header {
     background-image: url('/assets/images/banner3.jpg');
     /*background-repeat: no-repeat;*/
@@ -39,9 +40,9 @@ header #name {
 	padding-top: 15pt;
 	font-size: 17pt;}
 }
-
-
+/************************************/
 /*********** Navigation ***********/	
+/************************************/
 
 .menu_container, .anchor-link { display: none; }
 .menu_container { width: 100%; border-bottom: 1px solid #000; }
@@ -73,48 +74,51 @@ header #name {
   .nav ul li a:hover { background-color:#5C5C5C; }
 }
 
+/************************************/
 /*********** MAIN CONTENT ***********/	
+/************************************/
 
 .main_content{ margin:0 auto; overflow:auto; transition: .1s margin ease; display: block; position: relative; }
 .main_content{ position: relative; max-width: 70em; width: 100%; background-color: #f4f4f4; margin: 0 auto; }
-
 @media all and (max-width:48.000em){
   .main_content { float: left; margin-left: 0; width: 100%; }
 }
     
 #col-1{
-	float:left;
-	margin:50px 50px;}
+	float:left;}
+#col-1 #profile{
+	width:200px; 
+ 	height: auto;
+    margin:50px 50px 0px 50px;
+    border-radius: 50%;}
+#col-1 .social-media-icon-container{
+	width:200px;
+	margin:auto;}
+#col-1 img.social-media-icon{
+	width:40px;
+	height: 40px;}
+	
+@media only screen and (max-width: 600px) { 
+#col-1{
+	float:none;
+	margin:auto;}
+#col-1 #profile{
+	width:150px; 
+ 	height: auto;
+ 	display:block;
+ 	margin:auto;
+ 	padding-top:10pt;
+ 	float:none;}
+#col-1 .social-media-icon-container{
+	margin-top: 10pt;}
+ }
+    
 #col-2{
     width:60%;
     float:left;
     margin:50px 50px;
     text-align: justify;}
-    
-#col-1 img{
-	width:200px; /* you can use % */
- 	height: auto;
-    float:left;
-    border-radius: 50%;
-    vertical-align: middle;}
-    
-/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) { 
-
-
-#col-1{
-	float:none;
-	margin:auto;}
-	
-#col-1 img{
-	width:150px; /* you can use % */
- 	height: auto;
- 	display:block;
- 	margin:auto;
- 	padding-top:10pt;
- 	float:none;
- 	text-align:}
-    
 #col-2{
     width:90%;
     display:block;
@@ -125,8 +129,10 @@ header #name {
     
     }
 }
-  
-/*********** FOOTER ***********/	  
+
+/************************************/
+/************** FOOTER **************/	  
+/************************************/
 #footer{
     clear:both;}
     
