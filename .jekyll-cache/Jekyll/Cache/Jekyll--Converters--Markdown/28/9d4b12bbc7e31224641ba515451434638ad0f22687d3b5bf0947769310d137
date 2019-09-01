@@ -1,0 +1,9 @@
+I"c<li> Performed bibliographical research on machine learning and credibility assessment
+to identify the state of the art</li>
+<p>&lt;li&gt; Collected 36M tweets and queried them for trending topics in Lebanon&lt;/li&gt;
+&lt;li&gt; Annotated the dataset composed of 3,393 tweets for credibility&lt;/li&gt;
+&lt;li&gt; Extracted 74 features for each tweet including sentiment&lt;/li&gt;
+&lt;li&gt; Developed a framework for credibility classication of Arabic content on Twitter&lt;/li&gt;
+&lt;li&gt; The classier outperformed the state of the art approach with an increase of 14%
+in F-measure&lt;/li&gt;</p>
+:ET

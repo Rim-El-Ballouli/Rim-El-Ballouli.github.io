@@ -9,14 +9,13 @@ layout: default
 [Wassim El-Hajj](https://staff.aub.edu.lb/~we07/index.htm)-->
 
 
-
 <div id="col-1" >
 	<img id="profile" src="/assets/images/protrait.jpg">
 	<div  class="social-media-icon-container">
-		<a href="https://github.com/Rim-El-Ballouli/Rim-El-Ballouli.github.io"><img  class="social-media-icon" src="/assets/images/gh.png"></a>
-		<a href="https://scholar.google.com/citations?hl=en&user=ifD1gh0AAAAJ"><img  class="social-media-icon" src="/assets/images/gs.png"></a>
 		<a href="https://www.linkedin.com/in/rim-el-ballouli/"><img  class="social-media-icon" src="/assets/images/li.png"></a>
+		<a href="https://scholar.google.com/citations?hl=en&user=ifD1gh0AAAAJ"><img  class="social-media-icon" src="/assets/images/gs.png"></a>
 		<a href="https://www.researchgate.net/profile/Rim_El_Ballouli2"><img  class="social-media-icon" src="/assets/images/rg.png"></a>
+		<a href="https://github.com/Rim-El-Ballouli/Rim-El-Ballouli.github.io"><img  class="social-media-icon" src="/assets/images/gh.png"></a>
 	</div>
 </div>
 <div id="col-2">

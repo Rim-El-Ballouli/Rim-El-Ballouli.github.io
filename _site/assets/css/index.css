@@ -85,14 +85,15 @@ header #name {
 }
     
 #col-1{
-	float:left;}
+	float:left;
+	margin:50px;}
 #col-1 #profile{
 	width:200px; 
  	height: auto;
-    margin:50px 50px 0px 50px;
+    
     border-radius: 50%;}
 #col-1 .social-media-icon-container{
-	width:200px;
+	width:173px;
 	margin:auto;}
 #col-1 img.social-media-icon{
 	width:40px;
@@ -134,6 +135,20 @@ header #name {
 /************** FOOTER **************/	  
 /************************************/
 #footer{
-    clear:both;}
+    clear:both;
+    border-top: 1px solid black;
+    width:100%;}
+    
+.job-title{
+	font-size:14pt;
+	font-weight:bold;}
+.exp-list{
+	width:60%;}
+	
+.exp-type{
+	display:block;
+	border-bottom:1px solid #653D25;
+	font-size:16pt;
+	color:#653D25;}
     
   
