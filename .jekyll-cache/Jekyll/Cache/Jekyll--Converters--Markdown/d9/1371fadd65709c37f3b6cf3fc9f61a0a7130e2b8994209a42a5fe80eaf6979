@@ -1,17 +1,11 @@
----
-layout: default
----
+I"N<p><a href="https://www-verimag.imag.fr/~bensalem/">Saddek Bensalem</a>
+<a href="http://www-verimag.imag.fr/~bozga/">Marius Bozga</a>
+<a href="https://www-verimag.imag.fr/~bensalem/">Joseph Sifakis</a>
+<a href="http://oma-project.azurewebsites.net/">OMA</a>
+<a href="https://staff.aub.edu.lb/~we07/index.htm">Wassim El-Hajj</a></p>
 
-<!--[Saddek Bensalem](https://www-verimag.imag.fr/~bensalem/)
-[Marius Bozga](http://www-verimag.imag.fr/~bozga/)
-[Joseph Sifakis](https://www-verimag.imag.fr/~bensalem/)
-[OMA](http://oma-project.azurewebsites.net/)
-[Wassim El-Hajj](https://staff.aub.edu.lb/~we07/index.htm)-->
-
-
-
-<div id="col-1" >
-	<img id="pic" src="/assets/images//protrait.jpg">
+<div id="col-1">
+	<img id="pic" src="/assets/images//protrait.jpg" />
 </div>
 <div id="col-2">
 	<p> Rim El Ballouli, is a fresh doctorate graduate from the Universit&eacute;  of Grenoble Alpes, France. Her Ph.D. 
@@ -23,8 +17,9 @@ layout: default
 	<p> Prioir to that, she received her B.Sc. and M.Sc. in Computer Science from the American University of Beirut. In her 
 		Master's thesis she proposed a framework relying on machine learning techniques for credibility classification of arabic tweets. 
 		Her work was in collaboration with <a href="http://oma-project.azurewebsites.net/">OMA</a> research group and under the 
-		supervision of prof. <a href="https://staff.aub.edu.lb/~we07/index.htm">Wassim El-Hajj</a>. 
+		supervision of prof. [Wassim El-Hajj](https://staff.aub.edu.lb/~we07/index.htm). 
 		</p>
 	Her experience spans several axes including research, higher education and industry experience. Her research interests are 
 		in AI, IOT, self-adaptive and autonomous systems.
 </div>
+:ET

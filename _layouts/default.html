@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <link rel="stylesheet" href="/assets/css/index.css">
 
 <script type="text/javascript">
@@ -11,8 +9,8 @@
 </script>
 
 <script src='https://d33wubrfki0l68.cloudfront.net/js/34649f4bc672d45319e6bddeb4c00298f5e57613/assets/js/jquery-1.9.1.min.js'></script>
-<script>
 
+<script>
 $(document).ready(function() {
 	
 	window.scrollTo(0, 1);
@@ -26,13 +24,18 @@ $(document).ready(function() {
 </script>
 </head>
 
-<body class="nav-collapsed">
+<body>
 {% include header.html %}
 {% include navigation.html %}
 
 <section class="main_content" role="main">
-{{ content }}
+{{content}}
 </section>
-</div>
+
 {% include footer.html %}
+</body>
 </html>
+
+
+<!-- jekyll server --trace
+sudo lsof -wni tcp:4000 -->
