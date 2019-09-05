@@ -133,7 +133,8 @@ header #name {
 }
 @media only screen and (max-width: 900px) { 
 #col-2{
-    width:40%;}}
+   /* width:40%;}*/
+    }
 
 /************************************/
 /************** FOOTER **************/	  
