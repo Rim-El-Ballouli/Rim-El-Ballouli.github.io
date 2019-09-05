@@ -10,3 +10,6 @@ kramdown:
  
 collections: 
     experience:
+    
+# Google Analytics
+google_analytics: UA-147164583-1
