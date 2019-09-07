@@ -13,3 +13,7 @@ collections:
     
 # Google Analytics
 google_analytics: UA-147164583-1
+
+
+plugins:
+  - jekyll-seo-tag
