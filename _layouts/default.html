@@ -6,6 +6,10 @@
 {% include analytics.html %}
 {% endif %}
 
+{% if site.google_verify %}
+    <meta name="google-site-verification" content="{{ site.google_verify }}">
+{% endif %}
+
 
 <meta property="og:title" content="Personal Webpage"/>
 <meta property="og:image" content="/assets/images/webpage-screenshot.png"/>

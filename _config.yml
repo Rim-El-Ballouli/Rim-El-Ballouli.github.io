@@ -15,5 +15,9 @@ collections:
 google_analytics: UA-147164583-1
 
 
+
+google_verify: ve2lVCW3f_Z8QELKalmk0LVq3BeBhWQjKlU-0IQYBYI
+
+
 plugins:
   - jekyll-seo-tag
