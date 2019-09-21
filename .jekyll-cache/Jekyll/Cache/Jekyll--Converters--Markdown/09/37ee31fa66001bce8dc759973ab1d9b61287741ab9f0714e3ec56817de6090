@@ -1,14 +1,10 @@
----
-layout: default
----
-
-Citations: <a href="https://scholar.google.com/citations?hl=en&user=ifD1gh0AAAAJ">Google scholar</a>,
- <a href="https://www.researchgate.net/profile/Rim_El_Ballouli2">Research gate</a>
+I"p<p>Citations: <a href="https://scholar.google.com/citations?hl=en&amp;user=ifD1gh0AAAAJ">Google scholar</a>,
+ <a href="https://www.researchgate.net/profile/Rim_El_Ballouli2">Research gate</a></p>
 <h1> Future Research Prospect</h1>
 
 <h1> Past Research </h1>
 <h3>Credibility Analysis:</h3>
-Data generated on Twitter has become a rich source for various data mining tasks.
+<p>Data generated on Twitter has become a rich source for various data mining tasks.
 Those data analysis tasks that are dependent on the tweet semantics, such as sentiment analysis, emotion mining, and rumor detection among others, suffer considerably if the tweet is not credible, not
 real, or spam. In this paper, we perform an extensive analysis on credibility of Arabic content on Twitter. We
 also build a classification model (CAT) to
@@ -22,10 +18,10 @@ the state-of-the-art approach with an improvement of 21% in weighted average Fme
 to highlight the importance of the userbased features as opposed to the contentbased features. We conclude our work
 with a feature reduction experiment that
 highlights the best indicative features of
-credibility.
+credibility.</p>
 
 <h3>Self-configuring Architectures:</h3>
-Modern systems are pressured to adapt in response to their constantly changing
+<p>Modern systems are pressured to adapt in response to their constantly changing
 environment to remain useful. Traditionally, this adaptation has been handled at
 down times of the system. there is an increased demand to automate this process
 and achieve it whilst the system is running. Self-adaptive systems were introduced
@@ -38,11 +34,10 @@ and dynamically in response to changes. This may include installing,
 integrating, removing and composing/decomposing system elements.
 This thesis introduces the Dr-BIP framework, an extension of the BIP framework
 for modeling self-configuring systems that relies on a model-based and component
-& connector approach to prescribe systems. The combination of both of
-these approaches exploits the benefits of each.
+&amp; connector approach to prescribe systems. The combination of both of
+these approaches exploits the benefits of each.</p>
 
-
-A Dr-BIP system model is a runtime model which captures the running system
+<p>A Dr-BIP system model is a runtime model which captures the running system
 at three different levels of abstraction namely behavior, configuration, and
 configuration variants. The system’s configuration is captured by component and
 connectors. In a component and connector system, self-configuration can have
@@ -51,10 +46,9 @@ connectors, add or remove components, and add or remove subsystems. Dr-BIP
 supports explicit addition and removal of both components and subsystems, but
 implicit addition and removal of connectors. The main advantage of relying on
 an implicit addition and removal of connectors is the ability to guarantee by construction
-specific configuration topologies.
+specific configuration topologies.</p>
 
-
-To capture the three levels of abstraction, we introduce motifs as primary
+<p>To capture the three levels of abstraction, we introduce motifs as primary
 structures to prescribe a self-configuring Dr-BIP system. A motif defines a set
 of components that evolve according to interaction and reconfiguration rules. A
 system is composed of multiple motifs that possibly share components and evolve
@@ -63,17 +57,13 @@ interact and reconfiguration rules dictate how the system configuration can evol
 over time. Finally, we show that the proposed framework is both minimal and
 expressive by modeling four different self-configuring systems. Last but not least,
 we propose a modeling language to codify the framework concepts and provision
-an interpreter implementation.
-
+an interpreter implementation.</p>
 
 <h1> Selected Publications </h1>
 <ul>
-<li>El Ballouli, Rim, Saddek Bensalem, Marius Bozga, and Joseph Sifakis. <a href="https://www.researchgate.net/publication/328624887_Four_Exercises_in_Programming_Dynamic_Reconfigurable_Systems_Methodology_and_Solution_in_DR-BIP_8th_International_Symposium_ISoLA_2018_Limassol_Cyprus_November_5-9_2018_Proceedings_Part_III?_sg=09pW78lWa25-Veyvs-RmvMqmMyVRW5Gs0fn9jXZ0f0Gu6OPNgL1oQZ_IMpSdzOXwGS1nN56j2RAwXsgg-0COEuYHkPkmXZh_dIeWg63s.O5hlWfZxDdwQDnZWt3jLOmo7mj1qg75xAdRKmsHPmdVaeGZeLmZt5wTjBpXzNTKPKKEirloTQuhst2wnqDf87g">
-		"Four exercises in programming dynamic reconfigurable systems: methodology and solution in DR-BIP."</a> In International Symposium on Leveraging Applications of Formal Methods, pp. 304-320. Springer, Cham, 2018.</li>
-<li>El Ballouli, Rim, Wassim El-Hajj, Ahmad Ghandour, Shady Elbassuoni, Hazem Hajj, and Khaled Shaban. <a href="https://www.researchgate.net/publication/318741719_CAT_Credibility_Analysis_of_Arabic_Content_on_Twitter">
-		"CAT: Credibility Analysis of Arabic Content on Twitter."</a> In Proceedings of the Third Arabic Natural Language Processing Workshop, pp. 62-71. 2017.</li>
-<li>Al Zaatari, Ayman, Rim El Ballouli, Shady ELbassouni, Wassim El-Hajj, Hazem Hajj, Khaled Shaban, Nizar Habash, and Emad Yahya. <a href="https://www.researchgate.net/publication/334277635_Arabic_Corpora_for_Credibility_Analysis?_sg=8u5nTQnnqZ10-k0CLcNSI6_E2Y037AVjTRQjEp2464bX0sU41a-umFzgl6M9JThdvANTSovGFqrBAci65AQTO0AXDcPSRMo83vhE-xuZ.N72NcilInAis9YxY6ux90jQWSgkIprO2xBcCDbSY935v1HnjYSezE23zGpF5oybwZXs3R9fLFyV6BNK-LkvYUw">
-		"Arabic corpora for credibility analysis."</a> In Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC 2016), pp. 4396-4401. 2016.</li>
+<li><span class="italic">El Ballouli, Rim</span>, Saddek Bensalem, Marius Bozga, and Joseph Sifakis. "Four exercises in programming dynamic reconfigurable systems: methodology and solution in DR-BIP." In International Symposium on Leveraging Applications of Formal Methods, pp. 304-320. Springer, Cham, 2018.</li>
+<li>El Ballouli, Rim, Wassim El-Hajj, Ahmad Ghandour, Shady Elbassuoni, Hazem Hajj, and Khaled Shaban. "CAT: Credibility Analysis of Arabic Content on Twitter." In Proceedings of the Third Arabic Natural Language Processing Workshop, pp. 62-71. 2017.</li>
+<li>Al Zaatari, Ayman, Rim El Ballouli, Shady ELbassouni, Wassim El-Hajj, Hazem Hajj, Khaled Shaban, Nizar Habash, and Emad Yahya. "Arabic corpora for credibility analysis." In Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC 2016), pp. 4396-4401. 2016.</li>
 </ul>
 <h1> All publications </h1>
 <ul>
@@ -83,14 +73,11 @@ an interpreter implementation.
 		"Four exercises in programming dynamic reconfigurable systems: methodology and solution in DR-BIP."</a> In International Symposium on Leveraging Applications of Formal Methods, pp. 304-320. Springer, Cham, 2018.</li>
 	<li>El Ballouli, Rim, Saddek Bensalem, Marius Bozga, and Joseph Sifakis. <a href="https://www.researchgate.net/publication/328123340_Programming_Dynamic_Reconfigurable_Systems_15th_International_Conference_FACS_2018_Pohang_South_Korea_October_10-12_2018_Proceedings">
 		"Programming Dynamic Reconfigurable Systems."</a> In International Conference on Formal Aspects of Component Software, pp. 118-136. Springer, Cham, 2018.</li>
-	<li>El Ballouli, Rim, Saddek Bensalem, Marius Bozga, and Joseph Sifakis. <a href="https://www.researchgate.net/publication/334274630_Four_Exercises_in_Programming_Dynamic_Reconfigurable_Systems_Methodology_and_Solution_in_DR-BIP">
-		"Four Exercises in Programming Dynamic Reconfigurable Systems: Methodology and Solution in DR-BIP."</a> 2018.</li>
-	<li>El Ballouli, Rim, Saddek Bensalem, Marius Bozga, and Joseph Sifakis. <a href="https://www.researchgate.net/publication/334274530_DR-BIP_-Programming_Dynamic_Reconfigurable_Systems?_sg=o3q7Xa2yqb933hv1QjTgrir3R5fjq5XycByWo2SJdTnZAnkK4okQ5t0wtLyMX-CNrYwpUp1dLn2o3H5MHCc6xw14NVjI7u3lsNoFNTCs.EcYvbZT1Qu9M6gcTlXoqS1LAMJ39C9HhIFt9TCro7f26zc91OF3vOC8GLORXFKMrIUztjv9xjdWWz2YX_BW0sw">
-		"Programming Dynamic Reconfigurable Systems⋆."</a></li>
-	<li>El Ballouli, Rim, Wassim El-Hajj, Ahmad Ghandour, Shady Elbassuoni, Hazem Hajj, and Khaled Shaban. <a href="https://www.researchgate.net/publication/318741719_CAT_Credibility_Analysis_of_Arabic_Content_on_Twitter">
-		"CAT: Credibility Analysis of Arabic Content on Twitter."</a> In Proceedings of the Third Arabic Natural Language Processing Workshop, pp. 62-71. 2017.</li>
-	<li>El-Ballouli, Reem Ossama. <a href="https://www.researchgate.net/publication/334277627_Credibility_Models_for_Arabic_Content_on_Twitter?_sg=ycIZ5QwclN7I4Py2yQTCd9I9qb8bCc0l0is-MrKTzs92RZB_0Apq1UV4XlBJ54oC8iXxo0lJNUbAPGxcYN1q6sMvT97E2Z2r8wvKrod2.Fbzwpb62In0rW6mZqMBcu2BtBrqwvTlyJ6e_Csc7coazAQfvODB0yHumjD3Y3rfdPNcbjuxoVw-TeBFgVIs0Xw">
-		"Credibility models for Arabic content on Twitter."</a> MsC diss., 2014.</li>
-	<li>Al Zaatari, Ayman, Rim El Ballouli, Shady ELbassouni, Wassim El-Hajj, Hazem Hajj, Khaled Shaban, Nizar Habash, and Emad Yahya. <a href="https://www.researchgate.net/publication/334277635_Arabic_Corpora_for_Credibility_Analysis?_sg=8u5nTQnnqZ10-k0CLcNSI6_E2Y037AVjTRQjEp2464bX0sU41a-umFzgl6M9JThdvANTSovGFqrBAci65AQTO0AXDcPSRMo83vhE-xuZ.N72NcilInAis9YxY6ux90jQWSgkIprO2xBcCDbSY935v1HnjYSezE23zGpF5oybwZXs3R9fLFyV6BNK-LkvYUw">
-		"Arabic corpora for credibility analysis."</a> In Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC 2016), pp. 4396-4401. 2016.</li>
+	<li>El Ballouli, Rim, Saddek Bensalem, Marius Bozga, and Joseph Sifakis. "Four Exercises in Programming Dynamic Reconfigurable Systems: Methodology and Solution in DR-BIP." 2018.</li>
+	<li>El Ballouli, Rim, Saddek Bensalem, Marius Bozga, and Joseph Sifakis. "Programming Dynamic Reconfigurable Systems⋆."</li>
+	<li>El Ballouli, Rim, Wassim El-Hajj, Ahmad Ghandour, Shady Elbassuoni, Hazem Hajj, and Khaled Shaban. "CAT: Credibility Analysis of Arabic Content on Twitter." In Proceedings of the Third Arabic Natural Language Processing Workshop, pp. 62-71. 2017.</li>
+	<li>El-Ballouli, Reem Ossama. "Credibility models for Arabic content on Twitter." MsC diss., 2014.</li>
+	<li>Al Zaatari, Ayman, Rim El Ballouli, Shady ELbassouni, Wassim El-Hajj, Hazem Hajj, Khaled Shaban, Nizar Habash, and Emad Yahya. "Arabic corpora for credibility analysis." In Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC 2016), pp. 4396-4401. 2016.</li>
 <ul>
+</ul></ul>
+:ET

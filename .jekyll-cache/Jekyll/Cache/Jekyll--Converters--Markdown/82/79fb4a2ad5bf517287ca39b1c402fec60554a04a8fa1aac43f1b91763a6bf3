@@ -1,67 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-
-
-
-
-<meta name="google-site-verification" content="ve2lVCW3f_Z8QELKalmk0LVq3BeBhWQjKlU-0IQYBYI">
-
-
-<meta name="google-site-verification" content="ve2lVCW3f_Z8QELKalmk0LVq3BeBhWQjKlU-0IQYBYI" />
-
-<meta property="og:title" content="Personal Webpage"/>
-<meta property="og:image" content="/assets/images/webpage-screenshot.png"/>
-<meta property="g:description" content="Personal webpage and blog"/>
-<meta property="og:url" content="//www.example.com/URL of the article" />
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script type="text/javascript">
-  document.documentElement.className = 'js';
-</script>
-
-<script src='https://d33wubrfki0l68.cloudfront.net/js/34649f4bc672d45319e6bddeb4c00298f5e57613/assets/js/jquery-1.9.1.min.js'></script>
-
-<link rel="stylesheet" href="/assets/css/index.css">
-<script>
-$(document).ready(function() {
-	
-	window.scrollTo(0, 1);
-	
-	$('.js #menu-toggle').click(function (e) {
-		$('body').toggleClass('active');
-		e.preventDefault();
-    });
-
-});
-</script>
-</head>
-
-<body>
-<header>
- 	<div id="name"> Rim El Ballouli, PhD<br></div>
-   	<div id="desc">Doctor of Philisophy in Computer Science</div>
-</header>
-<!-- navigation tutorial https://responsivenavigation.net/examples/off-canvas-slide/# -->
-
-	<div class="menu_container cf">
-		<a id="menu-toggle" class="anchor-link" href="#mobile-nav">MENU</a>
-	</div>
-	
-	<nav id="mobile-nav" class="nav cf" role="navigation">
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="experience.html">Experience</a></li>
-			<li><a href="research.html">Research</a></li>
-			<li><a href="teaching.html">Teaching</a></li>
-			<li><a href="#">Blog</a></li>
-		</ul>
-	</nav>
-	
-
-
-<section class="main_content" role="main">
-<h1> Research Experience </h1>
+I"Ñ<h1> Research Experience </h1>
 <ul>
   
   
@@ -179,7 +116,7 @@ as cloudlet and is energy efficient</li>
   
   
     <li>
-      <h3> Instructor </h3> at American University of Beirut <br />
+      <span class="job-title"> Instructor </span> at American University of Beirut <br />
       September 2014 - November 2015<br />
       Beiurt, Lebanon 
       <div class="exp-list"><ul>
@@ -199,7 +136,7 @@ to programming (CMPS 200, laboratory), and computers and programming (CMPS
   
   
     <li>
-      <h3> Teaching Assistant </h3> at American University of Beirut <br />
+      <span class="job-title"> Teaching Assistant </span> at American University of Beirut <br />
       September 2012 - July 2014<br />
       Beiurt, Lebanon 
       <div class="exp-list"><ul>
@@ -217,7 +154,7 @@ laboratory), and discrete algorithms (CMPS 211, recitations)</li>
   
   
     <li>
-      <h3> Private Tutor </h3> at  <br />
+      <span class="job-title"> Private Tutor </span> at  <br />
       September 2012 - November 2015<br />
       Beiurt, Lebanon 
       <div class="exp-list"><ul>
@@ -231,14 +168,4 @@ and junior students</li>
   
   
 </ul>
-
-</section>
-
-<div id="footer"></div>
-
-</body>
-</html>
-
-
-<!-- jekyll server --trace
-sudo lsof -wni tcp:4000 -->
+:ET

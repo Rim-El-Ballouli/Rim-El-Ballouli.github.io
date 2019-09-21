@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-<span class="exp-type"> Research Experience </span>
+<h1> Research Experience </h1>
 <ul>
   {% for exp in site.experience %}
   {% if exp.type == 'research' %}
     <li>
-      <span class="job-title"> {{ exp.job_title }} </span> at {{ exp.company }} <br/>
+      <h3>{{ exp.job_title }} </h3> at {{ exp.company }} <br/>
       {{ exp.start_date }} - {{ exp.end_date }}<br/>
       {{ exp.location }} 
       <div class="exp-list"><ul>
@@ -18,12 +18,12 @@ layout: default
 </ul> 
 
 
-<span class="exp-type"> Industry Experience</span>
+<h1> Industry Experience</h1>
 <ul>
   {% for exp in site.experience %}
   {% if exp.type == 'indusrty' %}
     <li>
-      <span class="job-title"> {{ exp.job_title }} </span> at {{ exp.company }} <br/>
+      <h3> {{ exp.job_title }} </h3> at {{ exp.company }} <br/>
       {{ exp.start_date }} - {{ exp.end_date }}<br/>
       {{ exp.location }} 
       <div class="exp-list"><ul>
@@ -35,12 +35,12 @@ layout: default
 </ul> 
 
 
-<span class="exp-type"> Teaching Experience</span>
+<h1> Teaching Experience</h1>
 <ul>
   {% for exp in site.experience %}
   {% if exp.type == 'teaching' %}
     <li>
-      <span class="job-title"> {{ exp.job_title }} </span> at {{ exp.company }} <br/>
+      <h3> {{ exp.job_title }} </h3> at {{ exp.company }} <br/>
       {{ exp.start_date }} - {{ exp.end_date }}<br/>
       {{ exp.location }} 
       <div class="exp-list"><ul>
