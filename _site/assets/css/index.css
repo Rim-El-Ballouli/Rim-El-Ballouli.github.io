@@ -8,10 +8,11 @@ body.active .main_content:before { content: ""; position: absolute; z-index: -1;
 }
 
 h1{
-border-bottom:1px solid black;
+border-bottom:3px double black;
 }
 
 h2{
+border-bottom:1px solid black;
 }
 
 h3{

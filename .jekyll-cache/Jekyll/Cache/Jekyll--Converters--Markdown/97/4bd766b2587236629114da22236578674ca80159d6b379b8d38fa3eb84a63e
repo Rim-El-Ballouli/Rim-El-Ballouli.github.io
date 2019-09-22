@@ -1,83 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" href="/assets/css/index.css">
-
-
-
-
-<meta name="google-site-verification" content="ve2lVCW3f_Z8QELKalmk0LVq3BeBhWQjKlU-0IQYBYI">
-
-
-<title>Research</title>
-<!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Research | My Jekyll Website</title>
-<meta name="generator" content="Jekyll v4.0.0" />
-<meta property="og:title" content="Research" />
-<meta name="author" content="Rim El Ballouli" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Rim El Ballouli’s past, current and prospective research" />
-<meta property="og:description" content="Rim El Ballouli’s past, current and prospective research" />
-<link rel="canonical" href="http://localhost:4000/research.html" />
-<meta property="og:url" content="http://localhost:4000/research.html" />
-<meta property="og:site_name" content="My Jekyll Website" />
-<script type="application/ld+json">
-{"author":{"@type":"Person","name":"Rim El Ballouli"},"description":"Rim El Ballouli’s past, current and prospective research","headline":"Research","@type":"WebPage","url":"http://localhost:4000/research.html","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-
-<meta property="og:image" content="/assets/images/webpage-screenshot.png"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-<script type="text/javascript">
-  document.documentElement.className = 'js';
-</script>
-<script src='https://d33wubrfki0l68.cloudfront.net/js/34649f4bc672d45319e6bddeb4c00298f5e57613/assets/js/jquery-1.9.1.min.js'></script>
-<script>
-$(document).ready(function() {
-	
-	window.scrollTo(0, 1);
-	
-	$('.js #menu-toggle').click(function (e) {
-		$('body').toggleClass('active');
-		e.preventDefault();
-    });
-
-});
-</script>
-</head>
-
-<body>
-<header>
- 	<div id="name">Rim El Ballouli, PhD<br></div>
-   	<div id="desc">Doctor of Philisophy in Computer Science</div>
-</header>
-<!-- navigation tutorial https://responsivenavigation.net/examples/off-canvas-slide/# -->
-
-	<div class="menu_container cf">
-		<a id="menu-toggle" class="anchor-link" href="#mobile-nav">MENU</a>
-	</div>
-	
-	<nav id="mobile-nav" class="nav cf" role="navigation">
-		<ul>
-			<li><a href="/">Home</a></li>
-			<li><a href="experience.html">Experience</a></li>
-			<li><a href="research.html">Research</a></li>
-			<li><a href="teaching.html">Teaching</a></li>
-			<li><a href="#">Blog</a></li>
-		</ul>
-	</nav>
-	
-
-
-<section class="main_content" role="main">
-<p>Citations: <a href="https://scholar.google.com/citations?hl=en&amp;user=ifD1gh0AAAAJ">Google scholar</a>,
+I"&<p>Citations: <a href="https://scholar.google.com/citations?hl=en&amp;user=ifD1gh0AAAAJ">Google scholar</a>,
  <a href="https://www.researchgate.net/profile/Rim_El_Ballouli2">Research gate</a></p>
 <h1>Prospective Research</h1>
 
 <h1>Past Research </h1>
 
-<h3>Self-configuring Architectures</h3>
+<h3>Self-configuring Architectures:</h3>
 <p>Modern systems are pressured to adapt in response to their constantly changing
 environment to remain useful. Traditionally, this adaptation has been handled at
 down times of the system. there is an increased demand to automate this process
@@ -95,7 +22,16 @@ for modeling self-configuring systems that relies on a model-based and component
 
 <p>A Dr-BIP system model is a runtime model which captures the running system
 at three different levels of abstraction namely behavior, configuration, and
-configuration variants. To capture the three levels of abstraction, we introduce motifs as primary
+configuration variants. The system’s configuration is captured by component and
+connectors. In a component and connector system, self-configuration can have
+three different levels of granularity which includes the ability to add or remove
+connectors, add or remove components, and add or remove subsystems. Dr-BIP
+supports explicit addition and removal of both components and subsystems, but
+implicit addition and removal of connectors. The main advantage of relying on
+an implicit addition and removal of connectors is the ability to guarantee by construction
+specific configuration topologies.</p>
+
+<p>To capture the three levels of abstraction, we introduce motifs as primary
 structures to prescribe a self-configuring Dr-BIP system. A motif defines a set
 of components that evolve according to interaction and reconfiguration rules. A
 system is composed of multiple motifs that possibly share components and evolve
@@ -106,7 +42,7 @@ expressive by modeling four different self-configuring systems. Last but not lea
 we propose a modeling language to codify the framework concepts and provision
 an interpreter implementation.</p>
 
-<h3>Credibility Analysis</h3>
+<h3>Credibility Analysis:</h3>
 <p>Data generated on Twitter has become a rich source for various data mining tasks.
 Those data analysis tasks that are dependent on the tweet semantics, such as sentiment 
 analysis, emotion mining, and rumor detection among others, suffer considerably if the tweet is not credible, not
@@ -152,15 +88,6 @@ credibility.</p>
 		"Credibility models for Arabic content on Twitter."</a> MsC diss., 2014.</li>
 	<li>Al Zaatari, Ayman, Rim El Ballouli, Shady ELbassouni, Wassim El-Hajj, Hazem Hajj, Khaled Shaban, Nizar Habash, and Emad Yahya. <a href="https://www.researchgate.net/publication/334277635_Arabic_Corpora_for_Credibility_Analysis?_sg=8u5nTQnnqZ10-k0CLcNSI6_E2Y037AVjTRQjEp2464bX0sU41a-umFzgl6M9JThdvANTSovGFqrBAci65AQTO0AXDcPSRMo83vhE-xuZ.N72NcilInAis9YxY6ux90jQWSgkIprO2xBcCDbSY935v1HnjYSezE23zGpF5oybwZXs3R9fLFyV6BNK-LkvYUw">
 		"Arabic corpora for credibility analysis."</a> In Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC 2016), pp. 4396-4401. 2016.</li>
-</ul>
-
-</section>
-
-<div id="footer"></div>
-
-</body>
-</html>
-
-
-<!-- jekyll server --trace
-sudo lsof -wni tcp:4000 -->
+<ul>
+</ul></ul>
+:ET

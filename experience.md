@@ -1,5 +1,15 @@
 ---
 layout: default
+title: Experience
+description: Rim El Ballouli's research, higher education, and industry experience
+author: Rim El Ballouli
+social:
+  links:
+    - https://www.linkedin.com/in/rim-el-ballouli/
+    - https://github.com/Rim-El-Ballouli/
+    - https://www.researchgate.net/profile/Rim_El_Ballouli2/
+    - https://scholar.google.com/citations?hl=en&user=ifD1gh0AAAAJ
+lang: en_US
 ---
 <h1> Research Experience </h1>
 <ul>

@@ -1,5 +1,15 @@
 ---
 layout: default
+title: Rim El Ballouli Webpage
+description: Rim El Ballouli's personal page and blog
+author: Rim El Ballouli
+social:
+  links:
+    - https://www.linkedin.com/in/rim-el-ballouli/
+    - https://github.com/Rim-El-Ballouli/
+    - https://www.researchgate.net/profile/Rim_El_Ballouli2/
+    - https://scholar.google.com/citations?hl=en&user=ifD1gh0AAAAJ
+lang: en_US
 ---
 
 <!--[Saddek Bensalem](https://www-verimag.imag.fr/~bensalem/)

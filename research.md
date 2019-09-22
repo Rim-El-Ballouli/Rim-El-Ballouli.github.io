@@ -1,30 +1,24 @@
 ---
 layout: default
+title: Research
+description: Rim El Ballouli's past, current and prospective research
+author: Rim El Ballouli
+social:
+  links:
+    - https://www.linkedin.com/in/rim-el-ballouli/
+    - https://github.com/Rim-El-Ballouli/
+    - https://www.researchgate.net/profile/Rim_El_Ballouli2/
+    - https://scholar.google.com/citations?hl=en&user=ifD1gh0AAAAJ
+lang: en_US
 ---
 
 Citations: <a href="https://scholar.google.com/citations?hl=en&user=ifD1gh0AAAAJ">Google scholar</a>,
  <a href="https://www.researchgate.net/profile/Rim_El_Ballouli2">Research gate</a>
-<h1> Future Research Prospect</h1>
+<h1>Prospective Research</h1>
 
-<h1> Past Research </h1>
-<h3>Credibility Analysis:</h3>
-Data generated on Twitter has become a rich source for various data mining tasks.
-Those data analysis tasks that are dependent on the tweet semantics, such as sentiment analysis, emotion mining, and rumor detection among others, suffer considerably if the tweet is not credible, not
-real, or spam. In this paper, we perform an extensive analysis on credibility of Arabic content on Twitter. We
-also build a classification model (CAT) to
-automatically predict the credibility of a
-given Arabic tweet. Of particular originality is the inclusion of features extracted directly or indirectly from the author’s profile and timeline. To train and
-test CAT, we annotated for credibility a
-data set of 9, 000 Arabic tweets that are
-topic independent. CAT achieved consistent improvements in predicting the credibility of the tweets when compared to
-several baselines and when compared to
-the state-of-the-art approach with an improvement of 21% in weighted average Fmeasure. We also conducted experiments
-to highlight the importance of the userbased features as opposed to the contentbased features. We conclude our work
-with a feature reduction experiment that
-highlights the best indicative features of
-credibility.
+<h1>Past Research </h1>
 
-<h3>Self-configuring Architectures:</h3>
+<h3>Self-configuring Architectures</h3>
 Modern systems are pressured to adapt in response to their constantly changing
 environment to remain useful. Traditionally, this adaptation has been handled at
 down times of the system. there is an increased demand to automate this process
@@ -36,25 +30,14 @@ of this work is on realizing self-configuration, a key and essential property of
 self-adaptive systems. Self-configuration is the capability of reconfiguring automatically
 and dynamically in response to changes. This may include installing,
 integrating, removing and composing/decomposing system elements.
-This thesis introduces the Dr-BIP framework, an extension of the BIP framework
+We  introduce the Dr-BIP framework, an extension of the BIP framework
 for modeling self-configuring systems that relies on a model-based and component
-& connector approach to prescribe systems. The combination of both of
-these approaches exploits the benefits of each.
+& connector approach to prescribe systems. 
 
 
 A Dr-BIP system model is a runtime model which captures the running system
 at three different levels of abstraction namely behavior, configuration, and
-configuration variants. The system’s configuration is captured by component and
-connectors. In a component and connector system, self-configuration can have
-three different levels of granularity which includes the ability to add or remove
-connectors, add or remove components, and add or remove subsystems. Dr-BIP
-supports explicit addition and removal of both components and subsystems, but
-implicit addition and removal of connectors. The main advantage of relying on
-an implicit addition and removal of connectors is the ability to guarantee by construction
-specific configuration topologies.
-
-
-To capture the three levels of abstraction, we introduce motifs as primary
+configuration variants. To capture the three levels of abstraction, we introduce motifs as primary
 structures to prescribe a self-configuring Dr-BIP system. A motif defines a set
 of components that evolve according to interaction and reconfiguration rules. A
 system is composed of multiple motifs that possibly share components and evolve
@@ -65,8 +48,26 @@ expressive by modeling four different self-configuring systems. Last but not lea
 we propose a modeling language to codify the framework concepts and provision
 an interpreter implementation.
 
+<h3>Credibility Analysis</h3>
+Data generated on Twitter has become a rich source for various data mining tasks.
+Those data analysis tasks that are dependent on the tweet semantics, such as sentiment 
+analysis, emotion mining, and rumor detection among others, suffer considerably if the tweet is not credible, not
+real, or spam. We perform an extensive analysis on credibility of Arabic content on Twitter. We
+also build a classification model (CAT) to
+automatically predict the credibility of a
+given Arabic tweet. Of particular originality is the inclusion of features extracted 
+directly or indirectly from the author’s profile and timeline. To train and
+test CAT, we annotated for credibility a
+data set of 9, 000 Arabic tweets that are
+topic independent. CAT achieved consistent improvements in predicting the credibility of the tweets when compared to
+several baselines and when compared to
+the state-of-the-art approach with an improvement of 21% in weighted average F-measure. We also conducted experiments
+to highlight the importance of the userbased features as opposed to the contentbased features. We conclude our work
+with a feature reduction experiment that
+highlights the best indicative features of
+credibility.
 
-<h1> Selected Publications </h1>
+<h1>Selected Publications </h1>
 <ul>
 <li>El Ballouli, Rim, Saddek Bensalem, Marius Bozga, and Joseph Sifakis. <a href="https://www.researchgate.net/publication/328624887_Four_Exercises_in_Programming_Dynamic_Reconfigurable_Systems_Methodology_and_Solution_in_DR-BIP_8th_International_Symposium_ISoLA_2018_Limassol_Cyprus_November_5-9_2018_Proceedings_Part_III?_sg=09pW78lWa25-Veyvs-RmvMqmMyVRW5Gs0fn9jXZ0f0Gu6OPNgL1oQZ_IMpSdzOXwGS1nN56j2RAwXsgg-0COEuYHkPkmXZh_dIeWg63s.O5hlWfZxDdwQDnZWt3jLOmo7mj1qg75xAdRKmsHPmdVaeGZeLmZt5wTjBpXzNTKPKKEirloTQuhst2wnqDf87g">
 		"Four exercises in programming dynamic reconfigurable systems: methodology and solution in DR-BIP."</a> In International Symposium on Leveraging Applications of Formal Methods, pp. 304-320. Springer, Cham, 2018.</li>
@@ -75,7 +76,7 @@ an interpreter implementation.
 <li>Al Zaatari, Ayman, Rim El Ballouli, Shady ELbassouni, Wassim El-Hajj, Hazem Hajj, Khaled Shaban, Nizar Habash, and Emad Yahya. <a href="https://www.researchgate.net/publication/334277635_Arabic_Corpora_for_Credibility_Analysis?_sg=8u5nTQnnqZ10-k0CLcNSI6_E2Y037AVjTRQjEp2464bX0sU41a-umFzgl6M9JThdvANTSovGFqrBAci65AQTO0AXDcPSRMo83vhE-xuZ.N72NcilInAis9YxY6ux90jQWSgkIprO2xBcCDbSY935v1HnjYSezE23zGpF5oybwZXs3R9fLFyV6BNK-LkvYUw">
 		"Arabic corpora for credibility analysis."</a> In Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC 2016), pp. 4396-4401. 2016.</li>
 </ul>
-<h1> All publications </h1>
+<h1>All publications </h1>
 <ul>
 	<li>El Ballouli, Rim. <a href="https://www.researchgate.net/publication/334274538_Modeling_Self-configuration_in_Architecture-based_Self-adaptive_Systems?_sg=SWufZ_SztSmBkbnrK5mgYZ13EIoEK-pgyWDpaUuIzyXLSURIfm6cZ0cGnY7jPhbPiz4zJoPAKyvl7McDkcX7Ak_OhtUAnkt_TVAzzzcftV0.axeh3b0ullPlXofFqxGJIsggMgyXq1lawJwtXY27tM6eeWfoPxu7ymaN4sPKq3EzNAb79YQ5vJkYuXta57ZDJg">
 		"Modeling self-configuration in Architecture-based self-adaptive systems."</a> PhD diss., 2019.</li>
@@ -93,4 +94,4 @@ an interpreter implementation.
 		"Credibility models for Arabic content on Twitter."</a> MsC diss., 2014.</li>
 	<li>Al Zaatari, Ayman, Rim El Ballouli, Shady ELbassouni, Wassim El-Hajj, Hazem Hajj, Khaled Shaban, Nizar Habash, and Emad Yahya. <a href="https://www.researchgate.net/publication/334277635_Arabic_Corpora_for_Credibility_Analysis?_sg=8u5nTQnnqZ10-k0CLcNSI6_E2Y037AVjTRQjEp2464bX0sU41a-umFzgl6M9JThdvANTSovGFqrBAci65AQTO0AXDcPSRMo83vhE-xuZ.N72NcilInAis9YxY6ux90jQWSgkIprO2xBcCDbSY935v1HnjYSezE23zGpF5oybwZXs3R9fLFyV6BNK-LkvYUw">
 		"Arabic corpora for credibility analysis."</a> In Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC 2016), pp. 4396-4401. 2016.</li>
-<ul>
+</ul>
