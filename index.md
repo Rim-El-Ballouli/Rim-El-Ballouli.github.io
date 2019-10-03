@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Rim El Ballouli Webpage
+title: Rim El Ballouli
 description: Rim El Ballouli's personal page and blog
 author: Rim El Ballouli
 social:

@@ -7,9 +7,13 @@ kramdown:
  auto_ids: true
  hard_wrap: false
  syntax_highlighter: rouge
- 
-collections: 
-    experience:
+
+collections_dir: collections
+
+collections:
+    - experience
+    - posts
+    - drafts
     
 # Google Analytics
 google_analytics: UA-147164583-1
@@ -19,4 +23,5 @@ google_verify: ve2lVCW3f_Z8QELKalmk0LVq3BeBhWQjKlU-0IQYBYI
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  
   

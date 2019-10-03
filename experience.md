@@ -19,7 +19,7 @@ lang: en_US
       <h3>{{ exp.job_title }} </h3> at {{ exp.company }} <br/>
       {{ exp.start_date }} - {{ exp.end_date }}<br/>
       {{ exp.location }} 
-      <div class="exp-list"><ul>
+      <div><ul>
       {{ exp.content | markdownify }}
       </ul></div>
     </li>
@@ -36,7 +36,7 @@ lang: en_US
       <h3> {{ exp.job_title }} </h3> at {{ exp.company }} <br/>
       {{ exp.start_date }} - {{ exp.end_date }}<br/>
       {{ exp.location }} 
-      <div class="exp-list"><ul>
+      <div><ul>
       {{ exp.content | markdownify }}
       </ul></div>
     </li>
@@ -53,7 +53,7 @@ lang: en_US
       <h3> {{ exp.job_title }} </h3> at {{ exp.company }} <br/>
       {{ exp.start_date }} - {{ exp.end_date }}<br/>
       {{ exp.location }} 
-      <div class="exp-list"><ul>
+      <div><ul>
       {{ exp.content | markdownify }}
       </ul></div>
     </li>
