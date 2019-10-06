@@ -12,6 +12,10 @@ social:
 lang: en_US
 categories: Self-adaptive-systems
 ---
+<article>
+
+<base href="https://rim-el-ballouli.github.io/" target="_blank">
+
 
 ### How are self-adaptive systems engineered?
 
@@ -32,3 +36,4 @@ system whose behavior can change according to a set of well-formed mathematical 
 can be formally analyzed. 
 
 <img  width="700" class="center" src="/assets/images/sas-approach.png">
+</article>

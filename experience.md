@@ -11,51 +11,45 @@ social:
     - https://scholar.google.com/citations?hl=en&user=ifD1gh0AAAAJ
 lang: en_US
 ---
-<h1> Research Experience </h1>
+# Research Experience 
 <ul>
   {% for exp in site.experience %}
   {% if exp.type == 'research' %}
     <li>
-      <h3>{{ exp.job_title }} </h3> at {{ exp.company }} <br/>
+      <strong> {{ exp.job_title }} </strong> at <em> {{ exp.company }} </em> <br/>
       {{ exp.start_date }} - {{ exp.end_date }}<br/>
       {{ exp.location }} 
-      <div><ul>
       {{ exp.content | markdownify }}
-      </ul></div>
     </li>
     {% endif %}
   {% endfor %}
 </ul> 
 
 
-<h1> Industry Experience</h1>
+# Industry Experience
 <ul>
   {% for exp in site.experience %}
   {% if exp.type == 'indusrty' %}
     <li>
-      <h3> {{ exp.job_title }} </h3> at {{ exp.company }} <br/>
+      <strong> {{ exp.job_title }} </strong> at <em> {{ exp.company }} </em><br/>
       {{ exp.start_date }} - {{ exp.end_date }}<br/>
       {{ exp.location }} 
-      <div><ul>
       {{ exp.content | markdownify }}
-      </ul></div>
     </li>
     {% endif %}
   {% endfor %}
 </ul> 
 
 
-<h1> Teaching Experience</h1>
+# Teaching Experience
 <ul>
   {% for exp in site.experience %}
   {% if exp.type == 'teaching' %}
     <li>
-      <h3> {{ exp.job_title }} </h3> at {{ exp.company }} <br/>
+      <strong> {{ exp.job_title }} </strong> at <em> {{ exp.company }} </em> <br/>
       {{ exp.start_date }} - {{ exp.end_date }}<br/>
       {{ exp.location }} 
-      <div><ul>
       {{ exp.content | markdownify }}
-      </ul></div>
     </li>
     {% endif %}
   {% endfor %}

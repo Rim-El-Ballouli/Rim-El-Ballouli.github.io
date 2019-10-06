@@ -1,10 +1,12 @@
 body{
-	margin:0px !important;}
-body.active .main_content:before { content: ""; position: absolute; z-index: -1; top: 0; left: -100%; width: 100%; height: 100%;	background-color: #4e4e4e; }
+	margin:0px !important;
+	line-height:20pt;
+	letter-spacing:0.6pt;}
+body.active main:before { content: ""; position: absolute; z-index: -1; top: 0; left: -100%; width: 100%; height: 100%;	background-color: #4e4e4e; }
 
 @media all and (max-width:48.000em){
   body.active .nav { margin-left: 0; }
-  body.active .main_content { margin-right: -100%; }
+  body.active main { margin-right: -100%; }
 }
 
 .center {
@@ -87,25 +89,25 @@ header #name {
   .nav ul li a { border-bottom: 1px solid black;
   			
   			padding: 12px; }
-  .nav ul li a:hover { background-color:#5C5C5C; }
+  .nav ul li a:hover { background-color:#ccc; }
 }
 
 /************************************/
 /*********** MAIN CONTENT ***********/	
 /************************************/
 
-.main_content{ padding: 5pt 20pt; margin:0 auto; overflow:auto; transition: .1s margin ease; display: block; position: relative; }
-.main_content{ position: relative; max-width: 60em; width: 100%; background-color: #f4f4f4; margin: 0 auto; }
-.main_content{-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+main{ padding: 2% 10%; margin:0 auto; overflow:auto; transition: .1s margin ease; display: block; position: relative; }
+main{ position: relative; max-width: 60em; width: 100%; background-color: #f4f4f4; margin: 0 auto; }
+main{-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     -moz-box-sizing: border-box;    /* Firefox */
     box-sizing: border-box;}
 @media all and (max-width:48.000em){
-  .main_content { float: left; margin-left: 0; width: 100%; }
+  main { float: left; margin-left: 0; width: 100%; }
 }
     
 #col-1{
 	float:left;
-	margin:50px;}
+	margin: 15% 2% 0% 0%;}
 #col-1 #profile{
  	height: auto;
     width:150px; 
@@ -132,9 +134,9 @@ header #name {
  }
     
 #col-2{
-    width:60%;
+    width:73%;
     float:left;
-    margin:40px 40px;
+	margin-left: 2%;
     text-align: justify;}
 @media only screen and (max-width: 600px) { 
 #col-2{
@@ -155,10 +157,6 @@ header #name {
 /************************************/
 /************** FOOTER **************/	  
 /************************************/
-#footer{
-    clear:both;
-    border-top: 1px solid black;
-    width:100%;}
 
 
 

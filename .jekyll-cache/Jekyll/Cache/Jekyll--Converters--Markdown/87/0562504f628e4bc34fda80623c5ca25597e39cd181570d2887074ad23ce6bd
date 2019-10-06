@@ -1,0 +1,10 @@
+I"µ<p>Developed the Dr-BIP framework for modeling self-conguring systems, relying on
+a model-based and architectural-based approach to prescribe systems
+	 Defined formally the semantics of the modeling language in the form of state
+transition system</p>
+<ul>
+  <li>Demonstrated the proposed modeling with four case studies</li>
+  <li>Developed an interpreter that comprehends system models expressed in Dr-BIP
+modeling language</li>
+</ul>
+:ET

@@ -7,4 +7,4 @@ start_date: September 2012
 end_date: January 2012
 ---
 
-<li>Revamped the design of the company's website<li>
+- Revamped the design of the company's website

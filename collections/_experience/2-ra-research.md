@@ -7,5 +7,5 @@ start_date: June 2013
 end_date: August 2013
 ---
 
-<li> Worked on a cloudlet federation protocol that encourages the use of mobile devices
-as cloudlet and is energy efficient</li>
+- Worked on a cloudlet federation protocol that encourages the use of mobile devices
+as cloudlet and is energy efficient

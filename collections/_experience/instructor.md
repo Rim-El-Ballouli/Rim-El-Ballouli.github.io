@@ -7,6 +7,6 @@ start_date: September 2014
 end_date: November 2015
 ---
 
-<li>Taught technical course material and underlying theory for the courses: introduction
+- Taught technical course material and underlying theory for the courses: introduction
 to programming (CMPS 200, laboratory), and computers and programming (CMPS
-209, laboratory)</li>
+209, laboratory)
