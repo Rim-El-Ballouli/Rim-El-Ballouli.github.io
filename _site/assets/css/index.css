@@ -147,17 +147,17 @@ main{-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     float:left;
     text-align: justify; 
     margin-bottom: 100px;}
+@media only screen and (max-width: 1200px) { 
+#col-2{
+    width:67%;   
+    }
+}
 @media only screen and (max-width: 900px) { 
 #col-2{
     width:100%;
     display:block;
     float:none;
     margin:auto;   
-    }
-}
-@media only screen and (max-width: 1200px) { 
-#col-2{
-    width:67%;   
     }
 }
 /************************************/

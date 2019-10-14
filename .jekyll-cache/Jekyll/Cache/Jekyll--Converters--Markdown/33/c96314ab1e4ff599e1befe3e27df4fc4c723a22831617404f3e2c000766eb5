@@ -1,27 +1,14 @@
----
-layout: default
-title: Rim El Ballouli
-description: Rim El Ballouli's personal page and blog
-author: Rim El Ballouli
-social:
-  links:
-    - https://www.linkedin.com/in/rim-el-ballouli/
-    - https://github.com/Rim-El-Ballouli/
-    - https://www.researchgate.net/profile/Rim_El_Ballouli2/
-    - https://scholar.google.com/citations?hl=en&user=ifD1gh0AAAAJ
-lang: en_US
----
-<section>
-<div id="col-1" >
-	<img id="profile" src="/assets/images/protrait.jpg">
+I"v6<section>
+<div id="col-1">
+	<img id="profile" src="/assets/images/protrait.jpg" />
 	<div style="font-size:16pt;text-align:center;letter-spacing:0.2em;">Rim El-Ballouli</div>
 	<div style="text-align:center;color:gray"> Grenoble, France</div>
-	<br/>
-	<div  class="social-media-icon-container">
-		<a href="https://www.linkedin.com/in/rim-el-ballouli/"><img  class="social-media-icon" src="/assets/images/icons/li.png"></a>
-		<a href="https://scholar.google.com/citations?hl=en&user=ifD1gh0AAAAJ"><img  class="social-media-icon" src="/assets/images/icons/gs.png"></a>
-		<a href="https://www.researchgate.net/profile/Rim_El_Ballouli2"><img  class="social-media-icon" src="/assets/images/icons/rg.png"></a>
-		<a href="https://github.com/Rim-El-Ballouli/Rim-El-Ballouli.github.io"><img  class="social-media-icon" src="/assets/images/icons/gh.png"></a>
+	<br />
+	<div class="social-media-icon-container">
+		<a href="https://www.linkedin.com/in/rim-el-ballouli/"><img class="social-media-icon" src="/assets/images/icons/li.png" /></a>
+		<a href="https://scholar.google.com/citations?hl=en&amp;user=ifD1gh0AAAAJ"><img class="social-media-icon" src="/assets/images/icons/gs.png" /></a>
+		<a href="https://www.researchgate.net/profile/Rim_El_Ballouli2"><img class="social-media-icon" src="/assets/images/icons/rg.png" /></a>
+		<a href="https://github.com/Rim-El-Ballouli/Rim-El-Ballouli.github.io"><img class="social-media-icon" src="/assets/images/icons/gh.png" /></a>
 	</div>
 </div>
 <div id="col-2">
@@ -36,7 +23,7 @@ lang: en_US
 		Her work was in collaboration with <a href="http://oma-project.azurewebsites.net/">OMA</a> research group and under the 
 		supervision of prof. <a href="https://staff.aub.edu.lb/~we07/index.htm">Wassim El-Hajj</a>. 
 		</p>
-		<br/>
+		<br />
 		<h2> Interests </h2>
 		<ul>
 		<li> Internet Of Things</li>
@@ -52,7 +39,7 @@ lang: en_US
   <div class="entry">
     <div class="title">
       <h3>Dec. 2015 - Mar. 2019</h3>
-      <p>Ph.D. Researcher,<br/> Universit&eacute; Grenoble Alpes</p>
+      <p>Ph.D. Researcher,<br /> Universit&eacute; Grenoble Alpes</p>
     </div>
     <div class="body">
       <p>Developed the Dr-BIP framework for modeling self-configuring systems, relying on
@@ -75,7 +62,7 @@ a model-based and architectural-based approach to prescribe systems</p>
   <div class="entry">
     <div class="title">
       <h3>Sep. 2014 - Nov. 2015</h3>
-      <p>Instructor,<br/> American University of Beirut</p>
+      <p>Instructor,<br /> American University of Beirut</p>
     </div>
     <div class="body">
       <p>Taught technical course material and underlying theory for the courses: introduction
@@ -85,7 +72,7 @@ to programming, and computers and programming</p>
   <div class="entry">
     <div class="title">
       <h3>Sep. 2013 - Nov. 2015</h3>
-      <p>M.Sc. Researcher,<br/>American University of Beirut</p>
+      <p>M.Sc. Researcher,<br />American University of Beirut</p>
     </div>
     <div class="body">
       <p>Developed a framework for credibility classification of Arabic content on Twitter
@@ -96,7 +83,7 @@ in F-measure</p>
    <div class="entry">
     <div class="title">
       <h3>Sep. 2013 - Jul. 2014</h3>
-      <p>Teaching Assistant,<br/>American University of Beirut</p>
+      <p>Teaching Assistant,<br />American University of Beirut</p>
     </div>
     <div class="body">
       <p>Taught technical course material and underlying theory for the courses: introduction
@@ -107,7 +94,7 @@ programming, and discrete algorithms</p>
   <div class="entry">
     <div class="title">
       <h3>Sep. 2012 - Jan. 2012</h3>
-      <p>Intern,<br/>Oger Systems</p>
+      <p>Intern,<br />Oger Systems</p>
     </div>
     <div class="body">
       <p>Proposed and developed a new design for the design of the company's landing page
@@ -117,7 +104,7 @@ website</p>
   <div class="entry">
     <div class="title">
       <h3>Mar. 2011 - May. 2011</h3>
-      <p>Human Resources Assistant,<br/>American University of Beirut</p>
+      <p>Human Resources Assistant,<br />American University of Beirut</p>
     </div>
     <div class="body">
       <p>Consulted students with job applications, interview preparation, and cv writing</p>
@@ -129,7 +116,7 @@ website</p>
 <h1><span id="research" class="anchor"></span><span>Past Research</span></h1>
 
 <h2>Self-configuring Architectures</h2>
-Modern systems are pressured to adapt in response to their constantly changing
+<p>Modern systems are pressured to adapt in response to their constantly changing
 environment to remain useful. Self-adaptive systems
 are able to modify at runtime their behavior and/or structure in response to their
 perception of the environment, the system itself, and their requirements. The focus
@@ -139,10 +126,9 @@ and dynamically in response to changes. This may include installing,
 integrating, removing and composing/decomposing system elements.
 We  introduce the Dr-BIP framework, an extension of the BIP framework
 for modeling self-configuring systems that relies on a model-based and component
-& connector approach to prescribe systems. 
+&amp; connector approach to prescribe systems.</p>
 
-
-A Dr-BIP system model is a runtime model which captures the running system
+<p>A Dr-BIP system model is a runtime model which captures the running system
 at three different levels of abstraction namely behavior, configuration, and
 configuration variants. To capture the three levels of abstraction, we introduce motifs as primary
 structures to prescribe a self-configuring Dr-BIP system. A motif defines a set
@@ -153,10 +139,10 @@ interact and reconfiguration rules dictate how the system configuration can evol
 over time. Finally, we show that the proposed framework is both minimal and
 expressive by modeling four different self-configuring systems. Last but not least,
 we propose a modeling language to codify the framework concepts and provision
-an interpreter implementation.
+an interpreter implementation.</p>
 
 <h2>Credibility Analysis</h2>
-Data generated on Twitter has become a rich source for various data mining tasks.
+<p>Data generated on Twitter has become a rich source for various data mining tasks.
 Those data analysis tasks that are dependent on the tweet semantics, such as sentiment 
 analysis, emotion mining, and rumor detection among others, suffer considerably if the tweet is not credible, not
 real, or spam. We perform an extensive analysis on credibility of Arabic content on Twitter. We
@@ -172,15 +158,13 @@ the state-of-the-art approach with an improvement of 21% in weighted average F-m
 to highlight the importance of the userbased features as opposed to the contentbased features. We conclude our work
 with a feature reduction experiment that
 highlights the best indicative features of
-credibility.
-
+credibility.</p>
 
 <h1><span id="pub" class="anchor"></span><span>Publications</span></h1>
 
-Citations: <a href="https://scholar.google.com/citations?hl=en&user=ifD1gh0AAAAJ">Google scholar</a>,
- <a href="https://www.researchgate.net/profile/Rim_El_Ballouli2">Research gate</a>
- 
- 
+<p>Citations: <a href="https://scholar.google.com/citations?hl=en&amp;user=ifD1gh0AAAAJ">Google scholar</a>,
+ <a href="https://www.researchgate.net/profile/Rim_El_Ballouli2">Research gate</a></p>
+
 <ul>
 	<li>El Ballouli, Rim. <a href="https://www.researchgate.net/publication/334274538_Modeling_Self-configuration_in_Architecture-based_Self-adaptive_Systems?_sg=SWufZ_SztSmBkbnrK5mgYZ13EIoEK-pgyWDpaUuIzyXLSURIfm6cZ0cGnY7jPhbPiz4zJoPAKyvl7McDkcX7Ak_OhtUAnkt_TVAzzzcftV0.axeh3b0ullPlXofFqxGJIsggMgyXq1lawJwtXY27tM6eeWfoPxu7ymaN4sPKq3EzNAb79YQ5vJkYuXta57ZDJg">
 		"Modeling self-configuration in Architecture-based self-adaptive systems."</a> PhD diss., 2019.</li>
@@ -201,21 +185,21 @@ Citations: <a href="https://scholar.google.com/citations?hl=en&user=ifD1gh0AAAAJ
 </ul>
 
 <h1><span id="teach" class="anchor"></span><span>Teachings</span></h1>
-My <a href="TeachingPhilosophy.pdf" target="_blank"> teaching Philosophy </a>
+<p>My <a href="TeachingPhilosophy.pdf" target="_blank"> teaching Philosophy </a></p>
 <ul>
-	<li><span style="font-weight:bold">CMPS 200 - Introduction to Programming, AUB</span><br/>
+	<li><span style="font-weight:bold">CMPS 200 - Introduction to Programming, AUB</span><br />
 	An introduction to a disciplined approach to computer programming and 
 	problem solving. This course covers the basic repetition and selection constructs, 
 	procedures and functions, parameter passing, and scope of variables.</li>
-	<li><span style="font-weight:bold">CMPS 209 - Computers and Programming for the Sciences, AUB</span><br/>
+	<li><span style="font-weight:bold">CMPS 209 - Computers and Programming for the Sciences, AUB</span><br />
 	A computer literacy course covering all this course
 provides an introduction to programming using Visual Basic</li>
-	<li><span style="font-weight:bold">CMPS 211 - Discrete Structures, AUB</span><br/>
+	<li><span style="font-weight:bold">CMPS 211 - Discrete Structures, AUB</span><br />
 	This course covers logical reasoning, sets, relations and functions; mathematical induction, 
 	counting, and simple finite probability theory; molecular arithmetic in 
 	different bases; recurrence relations and difference equations; truth 
 	tables and switching circuits; graphs and trees; strings and languages. </li>
-	<li><span style="font-weight:bold">CMPS 278 - Web Programming and Design, AUB</span><br/>
+	<li><span style="font-weight:bold">CMPS 278 - Web Programming and Design, AUB</span><br />
 	This course provides an in-depth coverage of various markup
 languages (XHTML, Dynamic HTML and XML) and their associated cascading style sheets,
 several client side and server side scripting languages (JavaScript, PHP) in addition to AJAXenabled rich Internet applications, client-side technologies, web services, Web Servers, and
@@ -227,7 +211,8 @@ multi-tiered applications using relational database systems.</li>
 <ul>
 	<li>Modeling Self-configuration in architecture-based self-adaptive systems</li>
 	<li>DrBIP: A framework for modeling self-configuring Systems</li>
-	<Li>Modeling and analysis of dynamic architectures</li>
+	<li>Modeling and analysis of dynamic architectures</li>
 	<li>Credibility Models for Arabic Content on Twitter</li>
 	<li>Data mining with Twitter</li>
 </ul>
+:ET
